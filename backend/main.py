@@ -64,7 +64,7 @@ request_times = []
 # Load ML model
 logger.info("🤖 Loading ML model...")
 try:
-    model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
+    model = SentenceTransformer('paraphrase-MiniLM-L3-v2')
     translator = Translator()
     logger.info("✅ ML model loaded successfully!")
 except Exception as e:
